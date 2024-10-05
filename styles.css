@@ -3,15 +3,20 @@
     flex-direction: column;
     margin: 0;
     align-items: center;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(31, 31, 31);
 }
 
 .button {
     height: 10vh;
-    margin: 5vw;
+    margin: 20px;
     width: 90vw;
-    font-size: 5vw;
+    color: azure;
+    font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 39, 39);
+    outline: none;
+    border: none;
+    border-radius: 20px;
 }
 
 .image {
@@ -25,11 +30,11 @@
 
 .imageCont {
     height: 50vh;
-    padding: 5vw;
+    padding: 20px;
 }
 
 .info {
     color: azure;
-    font-size: 5vw;
+    font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }   
