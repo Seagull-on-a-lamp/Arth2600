@@ -5,7 +5,7 @@ data = {
         {"fname":"Edgar","lname":"Degas","artName":" The Café-Concert at the Ambassadors","date":"1877","styleMovement":"Impressionism","fileName":"art (4).jpeg"},
         {"fname":"Jean-Leon","lname":"Gerome","artName":"Snake Charmer","date":"1860s","styleMovement":"Orientalism","fileName":"art (5).jpeg"},
         {"fname":"Edouard","lname":"Manet","artName":"Olympia","date":"1863","styleMovement":"Impressionism, Realism","fileName":"art (6).jpeg"},
-        {"fname":"Berthe","lname":"Morisot","artName":"Woman et her Toilette","date":"1880","styleMovement":"Impressionism","fileName":"art (7).jpeg"},
+        {"fname":"Berthe","lname":"Morisot","artName":"Woman at her Toilette","date":"1880","styleMovement":"Impressionism","fileName":"art (7).jpeg"},
         {"fname":"Henri","lname":"Matisse","artName":"Harmony in Red (The Dinner Table)","date":"1908","styleMovement":"Fauvism","fileName":"art (14).jpeg"},
         {"fname":"Henri","lname":"Matisse","artName":"Red Studio","date":"1911","styleMovement":"Fauvism","fileName":"art (15).jpeg"},
         {"fname":"Henri","lname":"Matisse","artName":"Interior with Eggplants","date":"1911","styleMovement":"Fauvism","fileName":"art (16).jpeg"},
