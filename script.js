@@ -1,53 +1,567 @@
 data = {
     "art": [
-        {"fname":"William","lname":"Bouguereau","artName":"The Birth of Venus","date":"1879","styleMovement":"Neoclassicism","fileName":"art (1).jpeg"},
-        {"fname":"Claude","lname":"Monet","artName":"La Grenouillere","date":"1869","styleMovement":"Impressionism","fileName":"art (8).jpeg"},
-        {"fname":"Edgar","lname":"Degas","artName":" The Café-Concert at the Ambassadors","date":"1877","styleMovement":"Impressionism","fileName":"art (4).jpeg"},
-        {"fname":"Jean-Leon","lname":"Gerome","artName":"Snake Charmer","date":"1860s","styleMovement":"Orientalism","fileName":"art (5).jpeg"},
-        {"fname":"Edouard","lname":"Manet","artName":"Olympia","date":"1863","styleMovement":"Impressionism, Realism","fileName":"art (6).jpeg"},
-        {"fname":"Berthe","lname":"Morisot","artName":"Woman at her Toilette","date":"1880","styleMovement":"Impressionism","fileName":"art (7).jpeg"},
-        {"fname":"Henri","lname":"Matisse","artName":"Harmony in Red (The Dinner Table)","date":"1908","styleMovement":"Fauvism","fileName":"art (14).jpeg"},
-        {"fname":"Henri","lname":"Matisse","artName":"Red Studio","date":"1911","styleMovement":"Fauvism","fileName":"art (15).jpeg"},
-        {"fname":"Henri","lname":"Matisse","artName":"Interior with Eggplants","date":"1911","styleMovement":"Fauvism","fileName":"art (16).jpeg"},
-        {"fname":"Henri","lname":"Matisse","artName":"Odalisque in Red Trousers","date":"1922","styleMovement":"Fauvism","fileName":"art (3).jpeg"},
-        {"fname":"Andre","lname":"Derain","artName":"Mountains, Collioure","date":"1905","styleMovement":"Fauvism","fileName":"art (9).jpeg"},
-        {"fname":"Andre","lname":"Derain","artName":"The Dance","date":"1906","styleMovement":"Fauvism","fileName":"art (10).jpeg"},
-        {"fname":"Henri","lname":"Matisse","artName":"Open Window, Collioure","date":"1905","styleMovement":"Fauvism","fileName":"art (11).jpeg"},
-        {"fname":"Henri","lname":"Matisse","artName":"Joy of Life","date":"1906","styleMovement":"Fauvism","fileName":"art (12).jpeg"},
-        {"fname":"Henri","lname":"Matisse","artName":"Blue Nude (Memory of Biskra)","date":"1907","styleMovement":"Fauvism","fileName":"art (2).jpeg"},
-        {"fname":"Henri","lname":"Matisse","artName":"The Dance","date":"1910","styleMovement":"Fauvism","fileName":"art (13).jpeg"},
-        {"fname":"Emil","lname":"Nolde","artName":"Masks","date":"1911","styleMovement":"Expressionism","fileName":"art (9).png"},
-        {"fname":"Ernst","lname":"Kirchner","artName":"Red Nudes","date":"1913","styleMovement":"Expressionism","fileName":"art (10).png"},
-        {"fname":"Ernst","lname":"Kirchner","artName":"The Street, Dresden","date":"1908","styleMovement":"Expressionism","fileName":"art (11).png"},
-        {"fname":"Wassily","lname":"Kandinsky","artName":"Cover for Der Blaue Reiter Almanac","date":"1912","styleMovement":"Expressionism","fileName":"art (12).png"},
-        {"fname":"Wassily","lname":"Kandinsky","artName":"Resurrection","date":"1911","styleMovement":"Expressionism","fileName":"art (1).png"},
-        {"fname":"Wassily","lname":"Kandinsky","artName":"Study for Composition II","date":"1910","styleMovement":"Expressionism","fileName":"art (2).png"},
-        {"fname":"Pablo","lname":"Picasso","artName":"Guitar and Sheet Music","date":"1912","styleMovement":"Cubism (Synthetic)","fileName":"art (6).png"},
-        {"fname":"Pablo","lname":"Picasso","artName":"Au Bon Marche","date":"1913","styleMovement":"Cubism (Synthetic)","fileName":"art (7).png"},
-        {"fname":"Pablo","lname":"Picasso","artName":"Green Still Life","date":"1914","styleMovement":"Cubism (Hermetic)","fileName":"art (8).png"},
-        {"fname":"Pablo","lname":"Picasso","artName":"Demoiselles d'Avignon","date":"1907","styleMovement":"Cubism (Early Stage)","fileName":"art (3).png"},
-        {"fname":"Georges","lname":"Braque","artName":"The Portugese","date":"1911","styleMovement":"Cubism (Hermetic)","fileName":"art (4).png"},
-        {"fname":"Pablo","lname":"Picasso","artName":"Still Life with Chair Caning","date":"1912","styleMovement":"Cubism (Synthetic)","fileName":"art (5).png"},
-        {"fname":"Claude","lname":"Monet","artName":"Waterlilies","date":"1906","styleMovement":"Impressionism","fileName":"art (3).jpg"},
-        {"fname":"Ernst","lname":"Kirchner","artName":"Potsdam Square","date":"1914","styleMovement":"Expressionism","fileName":"art (1).jpg"},
-        {"fname":"Pablo","lname":"Picasso","artName":"Still Life with Bottle of Suze","date":"1912","styleMovement":"Cubism (Synthetic)","fileName":"art (4).jpg"},
-        {"fname":"Pablo","lname":"Picasso","artName":"Mandolin and Clarinet","date":"1914","styleMovement":"Cubism (Synthetic)","fileName":"art (5).jpg"},
-        {"fname":"Wassily","lname":"Kandinsky","artName":"Composition 4","date":"1911","styleMovement":"Expressionism","fileName":"art (2).jpg"}
+        {
+            "name": "Kazimir Malevich",
+            "artName": "Black Square",
+            "date": "1915",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia1.jpg",
+            "warning": false
+        },
+        {
+            "name": "Kazimir Malevich",
+            "artName": "White on White",
+            "date": "1918",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia2.jpg",
+            "warning": false
+        },
+        {
+            "name": "El Lissitzky",
+            "artName": "Beat the whites with th red wedge",
+            "date": "1919",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia3.jpg",
+            "warning": false
+        },
+        {
+            "name": "El Lissitzky",
+            "artName": "Self-Portrait: The Constructor",
+            "date": "1924",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia4.jpg",
+            "warning": false
+        },
+        {
+            "name": "El Lissitzky",
+            "artName": "Tatlin at Work on his Monument",
+            "date": "1921",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia5.jpg",
+            "warning": false
+        },
+        {
+            "name": "Vladimir Tatlin",
+            "artName": "Counter Releifs",
+            "date": "1914-15",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia6.jpg",
+            "warning": false
+        },
+        {
+            "name": "Aleksandr Rodchenko",
+            "artName": "Oval Hanging Construction",
+            "date": "1912",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia7.jpg",
+            "warning": false
+        },
+        {
+            "name": "El Lissitzky",
+            "artName": "Proun Room",
+            "date": "1923",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia8.jpg",
+            "warning": false
+        },
+        {
+            "name": "El Lissitzky",
+            "artName": "Proun 8",
+            "date": "1923",
+            "styleMovement": "Russian Avant-gardes",
+            "fileName": "Russia9.jpg",
+            "warning": false
+        },
+        {
+            "name": "Walter Gropius",
+            "artName": "Bauhaus Campus, Dessau",
+            "date": "1926",
+            "styleMovement": "Bauhaus",
+            "fileName": "Bauhaus1.jpg",
+            "warning": false
+        },
+        {
+            "name": "Paul Klee",
+            "artName": "Uncomposed Components in Space",
+            "date": "1929",
+            "styleMovement": "Bauhaus",
+            "fileName": "Bauhaus2.jpg",
+            "warning": false
+        },
+        {
+            "name": "Peter Keler",
+            "artName": "Cradle",
+            "date": "1922",
+            "styleMovement": "Bauhaus",
+            "fileName": "Bauhaus3.jpg",
+            "warning": false
+        },
+        {
+            "name": "Gunta Stolzl",
+            "artName": "Woven Piece",
+            "date": "1927",
+            "styleMovement": "Bauhaus",
+            "fileName": "Bauhaus4.jpg",
+            "warning": false
+        },
+        {
+            "name": "Herbert Bayer",
+            "artName": "Bauhaus Book cover no. 1",
+            "date": "1925",
+            "styleMovement": "Bauhaus",
+            "fileName": "Group1.png",
+            "warning": true
+        },
+        {
+            "name": "Oskar Schlemmer",
+            "artName": "Figures from Triadic Ballet",
+            "date": "1922",
+            "styleMovement": "Bauhaus",
+            "fileName": "Bauhaus6.jpg",
+            "warning": false
+        },
+        {
+            "name": "Marianne Brandt",
+            "artName": "Teapot",
+            "date": "1924",
+            "styleMovement": "Bauhaus",
+            "fileName": "Bauhaus7.jpg",
+            "warning": false
+        },
+        {
+            "name": "Mies Van der Rohe",
+            "artName": "Chair",
+            "date": "1927",
+            "styleMovement": "Bauhaus",
+            "fileName": "Bauhaus8.jpg",
+            "warning": false
+        },
+        {
+            "name": "Gerrit Rietveld",
+            "artName": "Red and Blue Chair",
+            "date": "1918-23",
+            "styleMovement": "Bauhaus",
+            "fileName": "Bauhaus9.jpg",
+            "warning": false
+        },
+        {
+            "name": "Photo (Unknown)",
+            "artName": "Hugo Ball at the Cabaret Voltaire, Zurich",
+            "date": "1916",
+            "styleMovement": "Dada",
+            "fileName": "Dada1.jpg",
+            "warning": false
+        },
+        {
+            "name": "Marcel Janco",
+            "artName": "Mask",
+            "date": "1919",
+            "styleMovement": "Dada",
+            "fileName": "Dada2.jpg",
+            "warning": false
+        },
+        {
+            "name": "Photo (Unknown)",
+            "artName": "The First International Dada Fair, Berlin",
+            "date": "1920",
+            "styleMovement": "Dada",
+            "fileName": "Dada3.jpg",
+            "warning": false
+        },
+        {
+            "name": "Photo (Unknown)",
+            "artName": "George Grosz as Dada Death in Berlin",
+            "date": "1918",
+            "styleMovement": "Dada",
+            "fileName": "Dada4.jpg",
+            "warning": false
+        },
+        {
+            "name": "George Grosz",
+            "artName": "The Engineer Heartfield",
+            "date": "1920",
+            "styleMovement": "Dada",
+            "fileName": "Dada5.jpg",
+            "warning": false
+        },
+        {
+            "name": "Raoul Hausmann",
+            "artName": "ABCD",
+            "date": "1923",
+            "styleMovement": "Dada",
+            "fileName": "Dada6.jpg",
+            "warning": false
+        },
+        {
+            "name": "Raoul Hausmann",
+            "artName": "Tatlin at Home",
+            "date": "1920",
+            "styleMovement": "Dada",
+            "fileName": "Dada7.jpg",
+            "warning": false
+        },
+        {
+            "name": "George Grosz, John Heartfield",
+            "artName": "The Middle-Class Philistine Heartfield Gone Wild",
+            "date": "1920",
+            "styleMovement": "Dada",
+            "fileName": "Dada8.jpg",
+            "warning": false
+        },
+        {
+            "name": "Hannah Hoch",
+            "artName": "From an Ethnographic Museum series",
+            "date": "1924-34",
+            "styleMovement": "Dada",
+            "fileName": "Dada9.jpg",
+            "warning": false
+        },
+        {
+            "name": "Marcel Duchamp",
+            "artName": "L.H.O.O.Q.",
+            "date": "1919",
+            "styleMovement": "Dada",
+            "fileName": "Dada10.jpg",
+            "warning": false
+        },
+        {
+            "name": "Marcel Duchamp",
+            "artName": "Fountain",
+            "date": "1917",
+            "styleMovement": "Dada",
+            "fileName": "Dada11.jpg",
+            "warning": false
+        },
+        {
+            "name": "Marcel Duchamp",
+            "artName": "Bicycle Wheel",
+            "date": "1913",
+            "styleMovement": "Dada",
+            "fileName": "Dada12.jpg",
+            "warning": false
+        },
+        {
+            "name": "Andre Masson",
+            "artName": "Battle of the Fish",
+            "date": "1927",
+            "styleMovement": "Surrealism",
+            "fileName": "Real1.jpg",
+            "warning": false
+        },
+        {
+            "name": "Andre Masson",
+            "artName": "Nudes and Architecture",
+            "date": "1924",
+            "styleMovement": "Surrealism",
+            "fileName": "Real2.jpg",
+            "warning": false
+        },
+        {
+            "name": "Yves Tanguy",
+            "artName": "The Certitude of the Never Seen",
+            "date": "1933",
+            "styleMovement": "Surrealism",
+            "fileName": "Real3.jpg",
+            "warning": false
+        },
+        {
+            "name": "Rene Magritte",
+            "artName": "The Red Model",
+            "date": "1935",
+            "styleMovement": "Surrealism",
+            "fileName": "Real4.jpg",
+            "warning": false
+        },
+        {
+            "name": "Rene Magritte",
+            "artName": "This is Not a Pipe",
+            "date": "1929",
+            "styleMovement": "Surrealism",
+            "fileName": "Real5.jpg",
+            "warning": false
+        },
+        {
+            "name": "Salvador Dali",
+            "artName": "The persisitence of Memory",
+            "date": "1931",
+            "styleMovement": "Surrealism",
+            "fileName": "Real6.jpg",
+            "warning": false
+        },
+        {
+            "name": "Salvador Dali",
+            "artName": "Archaeological Reminiscence of the Angelus of Millet",
+            "date": "1935",
+            "styleMovement": "Surrealism",
+            "fileName": "Real7.jpg",
+            "warning": false
+        },
+        {
+            "name": "Salvador Dali",
+            "artName": "Metamorphosis of Narcissus",
+            "date": "1936",
+            "styleMovement": "Surrealism",
+            "fileName": "Real8.jpg",
+            "warning": false
+        },
+        {
+            "name": "Meret Oppenheim",
+            "artName": "Objects: Fur Lunch",
+            "date": "1936",
+            "styleMovement": "Surrealism",
+            "fileName": "Real9.jpg",
+            "warning": false
+        },
+        {
+            "name": "Meret Oppenheim",
+            "artName": "My Nurse",
+            "date": "1936",
+            "styleMovement": "Surrealism",
+            "fileName": "Real10.jpg",
+            "warning": false
+        },
+        {
+            "name": "Max Ernst",
+            "artName": "The Woman with 100 Heads Opens her August Sleeve",
+            "date": "1929",
+            "styleMovement": "Surrealism",
+            "fileName": "Real11.jpg",
+            "warning": false
+        },
+        {
+            "name": "Max Ernst",
+            "artName": "A Week of Kindness",
+            "date": "1933",
+            "styleMovement": "Surrealism",
+            "fileName": "Real12.jpg",
+            "warning": false
+        },
+        {
+            "name": "Max Ernst",
+            "artName": "Europe After the Rain",
+            "date": "1942",
+            "styleMovement": "Surrealism",
+            "fileName": "Real13.jpg",
+            "warning": false
+        },
+        {
+            "name": "Man Ray",
+            "artName": "Minotaure",
+            "date": "1934",
+            "styleMovement": "Surrealism",
+            "fileName": "Real14.jpg",
+            "warning": false
+        },
+        {
+            "name": "Pablo Picasso",
+            "artName": "Cover for Minotaure",
+            "date": "1933",
+            "styleMovement": "Surrealism",
+            "fileName": "Real15.jpg",
+            "warning": false
+        },
+        {
+            "name": "Lazlo Moholy-Nagy",
+            "artName": "View from the Berlin Radio Tower",
+            "date": "1928",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo1.jpg",
+            "warning": false
+        },
+        {
+            "name": "Man Ray",
+            "artName": "Untitled Rayograph",
+            "date": "1921",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo2.jpg",
+            "warning": true
+        },
+        {
+            "name": "Albert Renger-Patzsch",
+            "artName": "The World is Beautiful",
+            "date": "1928",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo3.jpg",
+            "warning": true
+        },
+        {
+            "name": "Albert Renger-Patzsch",
+            "artName": "Viper's Head",
+            "date": "1925",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo4.jpg",
+            "warning": false
+        },
+        {
+            "name": "Albert Renger-Patzsch",
+            "artName": "Irons Used in Shoemaking",
+            "date": "1925",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo5.jpg",
+            "warning": false
+        },
+        {
+            "name": "August Sander",
+            "artName": "The Face of Our Times",
+            "date": "1929",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo6.jpg",
+            "warning": true
+        },
+        {
+            "name": "August Sander",
+            "artName": "Pastry Cook",
+            "date": "1929",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo7.jpg",
+            "warning": false
+        },
+        {
+            "name": "August Sander",
+            "artName": "Wife of Painter Peter Abelon",
+            "date": "1926",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo8.jpg",
+            "warning": false
+        },
+        {
+            "name": "August Sander",
+            "artName": "Young Peasants on their Way to a Dance",
+            "date": "1914",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo9.jpg",
+            "warning": false
+        },
+        {
+            "name": "Lazlo Moholy-Nagy",
+            "artName": "Winter View from the Berlin Radio Tower",
+            "date": "1928",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo10.jpg",
+            "warning": false
+        },
+        {
+            "name": "Alexander Rodchenko",
+            "artName": "On the Telephone",
+            "date": "1928",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo11.jpg",
+            "warning": false
+        },
+        {
+            "name": "Alexander Rodchenko",
+            "artName": "Fire Escape",
+            "date": "1925",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo12.jpg",
+            "warning": false
+        },
+        {
+            "name": "Umbo",
+            "artName": "Mystery of the Street",
+            "date": "1928",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo13.jpg",
+            "warning": false
+        },
+        {
+            "name": "John Heartfield",
+            "artName": "10 Years Later--Father and Sons",
+            "date": "1924",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo14.jpg",
+            "warning": false
+        },
+        {
+            "name": "John Heartfield",
+            "artName": "Blood and Iron",
+            "date": "1934",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo15.jpg",
+            "warning": false
+        },
+        {
+            "name": "John Heartfield",
+            "artName": "Millions Stand Behind Me: The Meaning of the Hitler Salute",
+            "date": "1932",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo16.jpg",
+            "warning": false
+        },
+        {
+            "name": "John Heartfield",
+            "artName": "The Executioner and Justice",
+            "date": "1933",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo17.jpg",
+            "warning": false
+        },
+        {
+            "name": "Man Ray",
+            "artName": "Return to Reason",
+            "date": "1923",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo18.jpg",
+            "warning": true
+        },
+        {
+            "name": "Maurice Tabard",
+            "artName": "Untitled Photogram",
+            "date": "1929",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo19.jpg",
+            "warning": false
+        },
+        {
+            "name": "Claude Cahun, Marcel Moore",
+            "artName": "Untitled",
+            "date": "1928",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo20.jpg",
+            "warning": false
+        },
+        {
+            "name": "Claude Cahun, Marcel Moore",
+            "artName": "What Do You Want from Me?",
+            "date": "1929",
+            "styleMovement": "1920s Photography",
+            "fileName": "Photo21.jpg",
+            "warning": false
+        }
     ]
+}
+
+i = 0;
+
+function shuffle() {
+    data.art.sort(() => Math.random() - 0.5);
 }
 
 function randomSelect() {
     // Randomly select an item from the JSON data
-    const randomIndex = Math.floor(Math.random() * data.art.length);
-    const randomItem = data.art[randomIndex];
-    console.log("Art/"+randomItem.fileName);
-    document.getElementById("image").src = "Art/"+randomItem.fileName;
-    document.getElementById("title").innerHTML = randomItem.artName;
-    document.getElementById("artist").innerHTML = randomItem.fname +" "+ randomItem.lname;
-    document.getElementById("date").innerHTML = randomItem.date;
-    document.getElementById("movement").innerHTML = randomItem.styleMovement;
-    document.getElementById("info").style.display = "none";
+    if( i >= Object.keys(data.art).length) {
+        i=0;
+        shuffle();
+    }
+    const Item = data.art[i];
 
+    console.log("Art/"+Item.fileName);
+    document.getElementById("image").src = "Art/"+Item.fileName;
+    document.getElementById("title").innerHTML = Item.artName;
+    document.getElementById("artist").innerHTML = Item.name;
+    document.getElementById("date").innerHTML = Item.date;
+    document.getElementById("movement").innerHTML = Item.styleMovement;
+    document.getElementById("info").style.display = "none";
+    if(Item.warning) {
+        document.getElementById("warning").style.display = "block";
+        document.getElementById("warning1").style.display = "block";
+    } else {
+        document.getElementById("warning").style.display = "none";
+        document.getElementById("warning1").style.display = "none";
+
+    }
+    console.log(i);
+    i++;
 }
 
 function info() {
@@ -56,4 +570,5 @@ function info() {
 
 }
 
+shuffle();
 randomSelect();
