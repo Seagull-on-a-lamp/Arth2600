@@ -18,7 +18,7 @@ data = {
         },
         {
             "name": "El Lissitzky",
-            "artName": "Beat the whites with th red wedge",
+            "artName": "Beat the whites with the red wedge",
             "date": "1919",
             "styleMovement": "Russian Avant-gardes",
             "fileName": "Russia3.jpg",
