@@ -29,8 +29,13 @@
 }
 
 .imageCont {
+    display: flex;
     height: 50vh;
     padding: 20px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .info {
@@ -38,3 +43,25 @@
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
 }   
+
+.warning {
+    color: azure;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.warning1 {
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+}
